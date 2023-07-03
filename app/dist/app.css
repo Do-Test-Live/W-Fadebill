@@ -52,7 +52,7 @@ a, button {
 }
 a:hover, button:hover {
   transition: all 0.3s;
-  color: var(--primary-color);
+  color: #ffffff;
 }
 
 .boild {
@@ -586,7 +586,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   top: -70%;
   left: -60%;
   z-index: -1;
-  background: radial-gradient(34.98% 34.98% at 50% 50%, #725BDA 0%, rgba(6, 19, 45, 0) 100%);
+  background: radial-gradient(34.98% 34.98% at 50% 50%, #01fe4b 0%, rgba(6, 19, 45, 0) 100%);
   opacity: 0.5;
 }
 .shape.right {
@@ -1082,14 +1082,14 @@ a {
   padding-left: 20px;
 }
 .header #main-nav-mobi ul li.current-item > a {
-  color: var(--primary-color);
+  color: #ffffff;
 }
 .header .menu-current-item > a,
 .header .current-item a {
-  color: var(--primary-color);
+  color: #ffffff;
 }
 .header .menu-current-item > a::after {
-  color: var(--primary-color) !important;
+  color: #ffffff !important;
 }
 
 .header.style-3 {
@@ -1102,11 +1102,11 @@ a {
   padding: 8px 32px;
 }
 .header.style-3 .group-button .btn-action-outline.style-1 {
-  border-color: #2E72D2;
+  border-color: #ffffff;
   padding: 10px 32px;
 }
 .header.style-3 .group-button .btn-action-outline.style-1::before {
-  background: #2E72D2;
+  background: #ffffff;
 }
 .header.style-3 .header__right .main-nav {
   margin-right: 0%;
@@ -1185,7 +1185,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .action-btn span {
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #01fe4b -38.2%, #00932b 103.12%);
   padding: 10px 20px;
   border-radius: 10px;
   color: #fff;
@@ -1237,7 +1237,7 @@ a {
   visibility: hidden;
   cursor: pointer;
   overflow: hidden;
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #11a916 -38.2%, #27fe87 103.12%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1260,15 +1260,15 @@ a {
 
 .block-text .sub-heading {
   padding: 7px 14px;
-  background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.67%, rgba(255, 255, 255, 0.05) 99.96%);
+  background: linear-gradient(89.96deg, rgb(20 241 5 / 99%) 0.03%, rgb(0 247 8) 49.67%, rgb(5 247 13) 99.96%);
   backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(14, 229, 40, 0.1);
   border-radius: 100px;
   display: inline-block;
   margin-bottom: 22px;
 }
 .block-text .sub-heading span {
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%), #FFFFFF;
+  background: linear-gradient(264.28deg, #ffffff -38.2%, #ffffff 103.12%), #FFFFFF;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1290,7 +1290,7 @@ a {
   margin-bottom: 40px;
 }
 .banner .block-text .heading span {
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #2ab921db -38.2%, #27fe73 103.12%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -1840,7 +1840,7 @@ a {
   justify-content: center;
 }
 .footer .footer__bottom .list-social li a:hover {
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #14d322 -38.2%, #27fe5f 103.12%);
 }
 @media only screen and (max-width: 1024px) {
   .footer .footer__bottom {
@@ -2833,7 +2833,7 @@ img.mfp-img {
   border-radius: 15px;
 }
 .speciality-box .icon {
-  background: linear-gradient(289.89deg, #DEC7FF -23.71%, #5C27FE 96.09%);
+  background: linear-gradient(289.89deg, #008d00 -23.71%, #27fe4b 96.09%);
   backdrop-filter: blur(4px);
   width: 105px;
   height: 105px;
@@ -2953,7 +2953,7 @@ img.mfp-img {
   letter-spacing: -1.3px;
 }
 .project.s3 {
-  padding: 215px 0 36px;
+  padding: 0px 0 100px;
 }
 @media only screen and (max-width: 1024px) {
   .project.s3 {
@@ -3561,7 +3561,7 @@ img.mfp-img {
   }
 }
 .testimonials.s3 {
-  padding: 0 0 141px;
+  padding: 0 0 0px;
 }
 @media only screen and (max-width: 1024px) {
   .testimonials.s3 {
