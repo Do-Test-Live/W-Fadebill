@@ -2586,11 +2586,11 @@ img.mfp-img {
 }
 
 .about {
-  padding: 0 0 100px;
+  padding:104px 0 100px;
   position: relative;
 }
 .about .block-text {
-  padding: 116px 0 116px 35px;
+  padding: 0px 0 116px 35px;
 }
 @media only screen and (max-width: 1200px) {
   .about .block-text {
@@ -2814,7 +2814,7 @@ img.mfp-img {
   }
 }
 .speciality.s1 {
-  padding: 0 0 78px;
+  padding: 170px 0 78px;
 }
 .speciality.s1 .block-text .heading {
   margin-bottom: 2px;
@@ -2867,6 +2867,7 @@ img.mfp-img {
 
 .portfolio {
   position: relative;
+  padding: 104px 0 0px;
 }
 .portfolio .container {
   max-width: 1140px;
@@ -2887,7 +2888,7 @@ img.mfp-img {
 }
 
 .portfolio-box {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 73.86%);
+  background: linear-gradient(#0b491c 0%, rgba(255, 255, 255, 0) 73.86%);
   backdrop-filter: blur(4px);
   border-radius: 16px;
   position: relative;
@@ -3658,7 +3659,7 @@ img.mfp-img {
   padding: 22px 0 87px;
 }
 .faq.s3 {
-  padding: 22px 0 48px;
+  padding: 104px 0 48px;
 }
 .faq.s3 .block-text .heading {
   margin-right: -25px;
@@ -3769,7 +3770,7 @@ img.mfp-img {
 }
 
 .create__main {
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #28ef04f7 -38.2%, #27e0fe 103.12%);
   border-radius: 26px;
   position: relative;
 }
@@ -3788,6 +3789,7 @@ img.mfp-img {
   position: relative;
   z-index: 1;
   padding: 32px 30px 29px;
+  height: 190px;
 }
 .create__main .content h4 {
   font-size: 30px;
@@ -4027,7 +4029,7 @@ img.mfp-img {
 }
 
 .touch__main {
-  background: #191E4F;
+  background: #027d1126;
   backdrop-filter: blur(2px);
   border-radius: 16px;
   overflow: hidden;
@@ -4054,7 +4056,7 @@ img.mfp-img {
   height: 1px;
   top: auto;
   bottom: 0;
-  background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%);
+  background: linear-gradient(264.28deg, #50d35a -38.2%, #04e900 103.12%);
   border-radius: 1.2px;
 }
 .touch__main .info .list li {
