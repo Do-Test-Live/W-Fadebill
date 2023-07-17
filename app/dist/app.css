@@ -586,7 +586,7 @@ body[data-magic-cursor=hide] .mouse-cursor {
   top: -70%;
   left: -60%;
   z-index: -1;
-  background: radial-gradient(34.98% 34.98% at 50% 50%, #01fe4b 0%, rgba(6, 19, 45, 0) 100%);
+  background: radial-gradient(34.98% 34.98% at 50% 50%, #53e290 0%, rgba(6, 19, 45, 0) 100%);
   opacity: 0.5;
 }
 .shape.right {
@@ -1185,7 +1185,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .action-btn span {
-  background: linear-gradient(264.28deg, #01fe4b -38.2%, #00932b 103.12%);
+  background:linear-gradient(264.28deg, #53e290 -38.2%, #47bb74 103.12%);
   padding: 10px 20px;
   border-radius: 10px;
   color: #fff;
@@ -1237,7 +1237,7 @@ a {
   visibility: hidden;
   cursor: pointer;
   overflow: hidden;
-  background: linear-gradient(264.28deg, #11a916 -38.2%, #27fe87 103.12%);
+  background: #53e290;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1260,7 +1260,7 @@ a {
 
 .block-text .sub-heading {
   padding: 7px 14px;
-  background: linear-gradient(89.96deg, rgb(20 241 5 / 99%) 0.03%, rgb(0 247 8) 49.67%, rgb(5 247 13) 99.96%);
+  background: #53e290;
   backdrop-filter: blur(4px);
   border: 1px solid rgba(14, 229, 40, 0.1);
   border-radius: 100px;
@@ -1290,7 +1290,7 @@ a {
   margin-bottom: 40px;
 }
 .banner .block-text .heading span {
-  background: linear-gradient(264.28deg, #2ab921db -38.2%, #27fe73 103.12%);
+  background: linear-gradient(264.28deg, #53e290 -38.2%, #47bb74 103.12%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
@@ -2820,20 +2820,19 @@ img.mfp-img {
   margin-bottom: 2px;
 }
 .speciality.s1 .speciality-box .title {
-  padding: 0 15px;
+  padding: 11px; 15px;
 }
 
 .speciality-box {
   text-align: center;
-  margin-top: 108px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 73.86%);
+  margin-top: 50px;
   backdrop-filter: blur(4px);
   position: relative;
   padding: 65px 20px 10px;
   border-radius: 15px;
 }
 .speciality-box .icon {
-  background: linear-gradient(289.89deg, #008d00 -23.71%, #27fe4b 96.09%);
+  background: linear-gradient(289.89deg, #53e290 -23.71%, #53e290 96.09%);
   backdrop-filter: blur(4px);
   width: 105px;
   height: 105px;
@@ -3770,7 +3769,7 @@ img.mfp-img {
 }
 
 .create__main {
-  background: linear-gradient(264.28deg, #28ef04f7 -38.2%, #1c6536 103.12%);
+  background: linear-gradient(264.28deg, #53e290 -38.2%, #47bb74 103.12%);
   border-radius: 26px;
   position: relative;
 }
@@ -3805,15 +3804,18 @@ img.mfp-img {
 }
 .create__main img {
   position: absolute;
-  right: 17px;
-  top: -112px;
-  animation: animate-1 15s linear 0s infinite;
+  right: 81px;
+  top: 14px;
+  border-radius: 20px;
+  animation: animate-1 10s linear 0s infinite;
 }
 @media only screen and (max-width: 767px) {
   .create__main img {
     position: relative;
-    top: 0;
-    right: 0;
+    top:-2px;
+    right: 50px;
+    border-radius: 27px;
+  }
   }
 }
 
