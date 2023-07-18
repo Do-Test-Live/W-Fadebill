@@ -2814,7 +2814,7 @@ img.mfp-img {
   }
 }
 .speciality.s1 {
-  padding: 170px 0 78px;
+  padding: 110px 0 78px;
 }
 .speciality.s1 .block-text .heading {
   margin-bottom: 2px;
@@ -3804,10 +3804,12 @@ img.mfp-img {
 }
 .create__main img {
   position: absolute;
-  right: 143px;
-  top: 19px;
+  right: 122px;
+  top: 9px;
   border-radius: 20px;
-  animation: animate-1 10s linear 0s infinite;
+  height: 175px;
+  width: 351px;
+
 }
 @media only screen and (max-width: 767px) {
   .create__main img {
